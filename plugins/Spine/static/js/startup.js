@@ -9,8 +9,20 @@ pimcore.plugin.spine = Class.create(pimcore.plugin.admin, {
         pimcore.plugin.broker.registerPlugin(this);
     },
  
-    pimcoreReady: function (params,broker){
-        // alert("Example Ready!");
+    pimcoreReady: function (params,broker)
+    {
+        this.loadJsFile("/object/classes/data/nationality.js");
+        this.loadJsFile("/object/tags/nationality.js");
+    },
+
+    loadJsFile: function(url)
+    {
+        var js = document.createElement('script');
+
+        js.type = "text/javascript";
+        js.src  = '/plugins/Spine/static/js' + url;
+
+        document.body.appendChild(js);
     }
 });
 

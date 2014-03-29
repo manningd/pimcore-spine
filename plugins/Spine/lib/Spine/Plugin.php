@@ -79,4 +79,19 @@ class Spine_Plugin  extends Pimcore_API_Plugin_Abstract implements Pimcore_API_P
     {
         return PIMCORE_PLUGINS_PATH . "/Spine";
     }
+
+    /**
+     * Translation files
+     *
+     * @param string $language
+     * @return string path to the translation file relative to plugin directory
+     */
+    public static function getTranslationFile($language)
+    {
+        if(file_exists(PIMCORE_PLUGINS_PATH . "/Spine/data/translations/" . $language . ".csv"))
+        {
+            return "/Spine/data/translations/" . $language . ".csv";
+        }
+        return "/Spine/data/translations/en.csv";
+    }
 }

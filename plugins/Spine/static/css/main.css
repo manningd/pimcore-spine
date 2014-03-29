@@ -2,3 +2,8 @@
 /*#pimcore_panel_toolbar {
     background: red !important;
 }*/
+
+.spine_icon_nationality, .pimcore_icon_nationality
+{
+    background: url('/plugins/Spine/static/img/icons/nationality.png')  left center no-repeat !important;
+}

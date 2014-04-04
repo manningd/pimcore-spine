@@ -10,7 +10,7 @@ Spine uses the DRY concept and mainly focuses on the front-end part of the websi
 
 #### Nationality
 Adds an "Nationality" Select field in the Object Data Component Context Menu.
-
+![Nationality](docs/img/object/data-field-nationality-1.jpg)
 
 ```php
 //Retrieving the available select options for nationality

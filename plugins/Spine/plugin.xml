@@ -6,11 +6,15 @@
             <pluginName>Spine</pluginName>
 
             <!-- a short description -->
-			<pluginDescription><![CDATA[]]></pluginDescription>
+			<pluginDescription>Spine is an plugin of the Premier Open-Source Multichannel Platform Pimcore,
+                which is an attempt to develop the missing pieces for pimcore to easier the development
+                with DRY concept.
+            </pluginDescription>
+            <pluginNiceName>Spine</pluginNiceName>
 
             <!-- meta data -->
-            <pluginVersion>1.0</pluginVersion>
-            <pluginRevision>1</pluginRevision>
+            <pluginVersion>2.0.1</pluginVersion>
+            <pluginRevision>2</pluginRevision>
             <pluginBuildTimestamp>0</pluginBuildTimestamp>
 
             <!-- put in the URL for the plugin configuration eg. /plugin/Spine/admin/index -->

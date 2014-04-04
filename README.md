@@ -6,10 +6,10 @@ Spine is a plugin of the Premier Open-Source Multichannel Platform [Pimcore](htt
 
 Spine uses the DRY concept and mainly focuses on the front-end part of the website.
 
-### Data Objects
+### Data Object Fields
 
 #### Nationality
-
+Adds an "Nationality" Select field in the Object Data Component Context Menu.
 
 
 ```php

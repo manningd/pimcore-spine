@@ -13,8 +13,8 @@
             <pluginNiceName>Spine</pluginNiceName>
 
             <!-- meta data -->
-            <pluginVersion>2.0.1</pluginVersion>
-            <pluginRevision>2</pluginRevision>
+            <pluginVersion>2.0.3</pluginVersion>
+            <pluginRevision>5</pluginRevision>
             <pluginBuildTimestamp>0</pluginBuildTimestamp>
 
             <!-- put in the URL for the plugin configuration eg. /plugin/Spine/admin/index -->

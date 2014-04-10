@@ -61,8 +61,9 @@ class Spine_Data_Storage
         //Identify file type
         if(strpos($path, '.json') !== false)
         {
-            return @json_decode($contents, true);
+            $contents = @json_decode($contents, true);
         }
+        self::$_memory[$path] = $contents;
         return $contents;
     }
 }

@@ -1,6 +1,8 @@
 <?php
 /**
  * Class Spine_Data_Storage
+ *
+ *
  */
 class Spine_Data_Storage
 {
@@ -50,6 +52,7 @@ class Spine_Data_Storage
 
         $actualPath = Spine_Plugin::getPluginPath() . '/data/storage' . $path;
 
+        //look for the requested file
         if(!file_exists($actualPath))
         {
             Logger::err("Can't read file: " . $actualPath);
@@ -63,6 +66,8 @@ class Spine_Data_Storage
         {
             $contents = @json_decode($contents, true);
         }
+
+        //avoid any unnecessary file read on future requests
         self::$_memory[$path] = $contents;
         return $contents;
     }
